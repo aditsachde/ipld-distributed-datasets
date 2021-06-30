@@ -1,0 +1,26 @@
+{
+  "name": "ipld-distrubuted-datasets",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:aditsachde/ipld-distrubuted-datasets.git",
+  "author": "Adit Sachde <23707194+aditsachde@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "build:watch": "tsc --build --watch tsconfig.json",
+    "start": "node lib/index.js"
+  },
+  "devDependencies": {
+    "@types/levelup": "^4.3.1",
+    "@types/rocksdb": "^3.0.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "ipfs-core": "^0.8.0",
+    "ipfs-http-client": "^50.1.2",
+    "ipld-dag-cbor": "^1.0.0",
+    "levelup": "^5.0.1",
+    "rocksdb": "^5.0.0"
+  }
+}
