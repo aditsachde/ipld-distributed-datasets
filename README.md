@@ -33,3 +33,5 @@ The CID of the root is `bafyreicbrkooyak2baydxsqpguatlp4ysokcthgp2vflfjzl33342vd
 The entire dataset is on IPFS, but is pretty slow as it is only present on a single node, so its recommended to load it into your local node. The [IPLD explorer](https://explore.ipld.io/) is a great way to visualize how the data is structured.
 
 The records were loaded from `authors100k.txt`. The second column in the file is the key.
+
+The loader folder has the scripts that were used to build the tree. They are pretty much undocumented, with hardcoded paths, and are relativily slow. I plan on rewriting them, but they can be used as reference.
